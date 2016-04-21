@@ -1,0 +1,200 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+}
+header {
+	height: 100px;
+	border-bottom: 1px solid #666;
+	padding-bottom: 1px;
+}
+
+
+body{
+	margin:0;
+	padding:0;
+	}
+h1 {
+	font-size: 48px;
+	font-weight: normal;
+	text-transform: uppercase;
+	display: inline-block;
+	float: left;
+	font-style: normal;
+	padding-top: 35px;
+	color: #2f5b74;
+}
+
+.wrapper {
+	display: block;
+	margin: 0px auto;
+	font: 14px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #FFF;
+	height: 700px;
+	width: 1000px;
+}
+.baner{
+	float: left;
+	margin-left: 50px;
+}
+.nav{
+	width: 170px;
+	height: 175px;
+	margin-top: 58px;
+	
+}
+
+.nav ul li{
+	list-style: none;
+	padding: 10px 10px 15px;
+	border: 1px solid #2f5b74;
+}
+.article {
+	display: block;
+	height: 550px;
+	width: 505px;
+	border-right: 1px solid #666;
+	border-left: 1px solid #666;
+	padding-top: 10px;
+	float: left;
+	margin-left: 20px;
+	
+}
+h5 {
+	display: inline-block;
+	margin-bottom: 20px;
+	color: #666;
+	font-style: italic;
+}
+footer {
+	height: 20px;
+	width: 980px;
+	clear: both;
+	padding-top: 10px;
+	padding-left: 20px;
+	margin-top: 5px;
+	border-top: 1px solid #666;
+}
+
+
+.aside {
+	display: block;
+	height: 550px;
+	width: 277px;
+	float: right;
+	padding-top: 10px;
+	
+}
+.aside img{
+	margin-top: 13px;
+}
+
+h3 {
+	color: #333;
+	border-bottom: 1px solid #666;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+
+
+
+p {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+a{
+	text-decoration:none;
+	color:#2f5b74;
+	text-transform:uppercase;
+	padding-top:20px;
+}
+h4{
+	display: inline-block;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	}
+
+h4 a{
+	text-transform: capitalize;
+	color: #666;
+	font-weight: bold;
+	}
+a:hover{
+	color:#F00;}
+form{
+	float: right;
+	padding-top: 50px;
+}
+.search {
+    width: 300px; /* Ширина поля с кнопкой */
+    border: 1px solid #000; /* Параметры рамки */
+    min-height: 30px; /* Минимальная высота */
+   }
+   input[type="search"] {
+	border: none; /* Убираем рамку */
+	outline: none; /* Убираем свечение в Chrome и Safari */
+	-webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+	width: 270px; /* Ширина поля */
+	vertical-align: middle; /* Выравнивание по середине */
+   }
+   input[type="submit"] {
+	width: 24px; /* Ширина кнопки */
+	height: 24px; /* Убираем рамку */
+	background: url(../images/5.png) no-repeat 50% 50%;
+	border-top: none #666;
+	border-right: none #666;
+	border-bottom: none #666;
+	border-left: none #666;
+   }
+.saidbar{
+	width: 175px;
+	height: 560px;
+	float: left;
+	clear: left;
+}
+ figure {
+	background: #2f5b74; /* Цвет фона */
+	display: block; /* Блочный элемент */
+	width: 492px; /* Ширина */
+	height: 157px; /* Отступы */
+	text-align: left; /* Выравнивание по центру */
+	margin-top: 50px;
+	margin-left: 5px;
+   }
+h2 {
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+   figure img {
+	margin-top: 10px;
+	margin-left: 10px;
+   }
+figcaption {
+	text-align: right;
+	color: #FFF;
+	display: inline-block;
+	margin-top: 60px;
+}
+
+   figure p {
+	text-align: left;
+	float: left;
+   }
+.video
+{
+	width: 430px;
+	height: 242px;
+	margin-left: 35px;
+	margin-top: 50px;
+	}
+.maps{
+	margin-left: 45px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.foto{
+	margin-left:50px}
